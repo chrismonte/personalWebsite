@@ -23,7 +23,7 @@ class LandingPage extends Component {
                   Christian Monteverde
                 </Link>
               </div>
-              <div className="col-sm col-3 text-lg-right">
+              {/*  <div className="col-sm col-3 text-lg-right">
                 <div className="social-icons d-none d-lg-inline-block">
                   <Router>
                     <Link
@@ -44,7 +44,7 @@ class LandingPage extends Component {
                     <div className="line-menu half end"></div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </header>
