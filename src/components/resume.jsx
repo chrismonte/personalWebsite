@@ -7,22 +7,22 @@ class Resume extends Component {
   render() {
     return (
       <React.Fragment>
-        <body>
-          <header class="page-header">
-            <div class="container">
-              <div class="row no-gutters align-items-center">
-                <div class="col-sm col-9">
-                  {/* <img class="user-image" src={profilePic} /> */}
-                  <Link to="/" class="logo slide-horizontal" data-splitting>
+        <div>
+          <header className="page-header">
+            <div className="container">
+              <div className="row no-gutters align-items-center">
+                <div className="col-sm col-9">
+                  {/* <img className="user-image" src={profilePic} /> */}
+                  <Link to="/" className="logo slide-horizontal" data-splitting>
                     Christian Monteverde
                   </Link>
                 </div>
-                {/* <div class="col-sm col-3 text-right">
-                  <div class="header-nav-toggler">
-                    <div class="menu-btn">
-                      <div class="line-menu half start"></div>
-                      <div class="line-menu"></div>
-                      <div class="line-menu half end"></div>
+                {/* <div className="col-sm col-3 text-right">
+                  <div className="header-nav-toggler">
+                    <div className="menu-btn">
+                      <div className="line-menu half start"></div>
+                      <div className="line-menu"></div>
+                      <div className="line-menu half end"></div>
                     </div>
                   </div>
                 </div> */}
@@ -30,23 +30,23 @@ class Resume extends Component {
             </div>
           </header>
 
-          <div class="page-wrapper">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-10">
-                  <div class="page-content">
-                    <div class="row">
-                      <div class="col-md-12">
+          <div className="page-wrapper">
+            <div className="container">
+              <div className="row justify-content-center">
+                <div className="col-lg-10">
+                  <div className="page-content">
+                    <div className="row">
+                      <div className="col-md-12">
                         <h2
-                          class="section-heading"
+                          className="section-heading"
                           style={{ color: "color:#f2c44c" }}
                         >
                           <span>1/</span>Objective
                         </h2>
 
-                        <div class="education-info">
-                          <div class="eduacation-info-item">
-                            <div class="row">
+                        <div className="education-info">
+                          <div className="eduacation-info-item">
+                            <div className="row">
                               <div>
                                 <p>
                                   To obtain a position that provides ample
@@ -59,22 +59,22 @@ class Resume extends Component {
                         </div>
                       </div>
 
-                      <div class="col-md-12">
-                        <div class="divider"></div>
+                      <div className="col-md-12">
+                        <div className="divider"></div>
                       </div>
-                      <div class="col-md-12">
+                      <div className="col-md-12">
                         <h2
-                          class="section-heading"
+                          className="section-heading"
                           style={{ color: "#33d06c" }}
                         >
                           <span>2/</span>Education
                         </h2>
 
-                        <div class="education-info">
-                          <div class="eduacation-info-item">
-                            <div class="row">
-                              <div class="col-md-4">
-                                <h4 class="education-designation">
+                        <div className="education-info">
+                          <div className="eduacation-info-item">
+                            <div className="row">
+                              <div className="col-md-4">
+                                <h4 className="education-designation">
                                   University of Central Florida
                                 </h4>
                                 <p>Bachelor of Science in Computer Science</p>
@@ -86,46 +86,48 @@ class Resume extends Component {
                         </div>
                       </div>
 
-                      <div class="col-md-12">
-                        <div class="divider"></div>
+                      <div className="col-md-12">
+                        <div className="divider"></div>
                       </div>
 
-                      <div class="col-lg-7 col-md-12 mt-90 mt-lg-0">
+                      <div className="col-lg-7 col-md-12 mt-90 mt-lg-0">
                         <h2
-                          class="section-heading"
+                          className="section-heading"
                           style={{ color: "#6e80e3" }}
                         >
                           <span>3/</span>My Skills
                         </h2>
 
-                        <div class="skills">
-                          <div class="skill-item">
-                            <div class="skill-info">
-                              <p class="skill-text">React.js, HTML, & CSS</p>
+                        <div className="skills">
+                          <div className="skill-item">
+                            <div className="skill-info">
+                              <p className="skill-text">
+                                React.js, HTML, & CSS
+                              </p>
                             </div>
                           </div>
 
-                          <div class="skill-item">
-                            <div class="skill-info">
-                              <p class="skill-text">JavaScript</p>
+                          <div className="skill-item">
+                            <div className="skill-info">
+                              <p className="skill-text">JavaScript</p>
                             </div>
                           </div>
 
-                          <div class="skill-item">
-                            <div class="skill-info">
-                              <p class="skill-text">Java, C, Python</p>
+                          <div className="skill-item">
+                            <div className="skill-info">
+                              <p className="skill-text">Java, C, Python</p>
                             </div>
                           </div>
                         </div>
                       </div>
 
-                      <div class="col-md-12">
-                        <div class="divider"></div>
+                      <div className="col-md-12">
+                        <div className="divider"></div>
                       </div>
 
-                      <div class="col-md-12">
+                      <div className="col-md-12">
                         <footer>
-                          <div class="footer-top text-center">
+                          <div className="footer-top text-center">
                             <h2>ChristianMonteverde95@gmail.com</h2>
                             <p>2154 Montpeliar</p>
                             <p>Weston FL, 33326</p>
@@ -139,9 +141,9 @@ class Resume extends Component {
             </div>
           </div>
 
-          <div class="progress-wrap">
+          <div className="progress-wrap">
             <svg
-              class="progress-circle svg-content"
+              className="progress-circle svg-content"
               width="100%"
               height="100%"
               viewBox="-1 -1 102 102"
@@ -153,7 +155,7 @@ class Resume extends Component {
           <script src="js/jquery-v1.12.4.min.js"></script>
           <script src="js/plugins.js"></script>
           <script src="js/main.js"></script>
-        </body>
+        </div>
       </React.Fragment>
     );
   }

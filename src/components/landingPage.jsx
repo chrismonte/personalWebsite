@@ -23,18 +23,11 @@ class LandingPage extends Component {
                   Christian Monteverde
                 </Link>
               </div>
-              {/*  <div className="col-sm col-3 text-lg-right">
+              {/* <div className="col-sm col-3 text-lg-right">
                 <div className="social-icons d-none d-lg-inline-block">
-                  <Router>
-                    <Link
-                      to={{
-                        pathname:
-                          "www.linkedin.com/in/christian-monteverde-78020a185goog",
-                      }}
-                    >
-                      <i className="lni-linkedin-original"></i>
-                    </Link>
-                  </Router>
+                  <Link to="www.linkedin.com/in/christian-monteverde-78020a185">
+                    <i className="lni-linkedin-original"></i>
+                  </Link>
                 </div>
 
                 <div className="header-nav-toggler d-lg-none">
@@ -83,13 +76,11 @@ class LandingPage extends Component {
                 <div className="standard-text-holder">
                   <h5 className="mb-25">Let's work together</h5>
                   <p className="mb-10">I’m available at</p>
-                  <p className="mb-1">
-                    <p className="mb-10">christianmonteverde95@gmail.com</p>
-                  </p>
-                  <p>
-                    <p className="slide-vertical" data-splitting>
-                      (786) 479 3472
-                    </p>
+
+                  <p className="mb-1">christianmonteverde95@gmail.com</p>
+
+                  <p className="slide-vertical" data-splitting>
+                    (786) 479 3472
                   </p>
                 </div>
               </div>
