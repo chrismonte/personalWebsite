@@ -64,7 +64,7 @@ class LandingPage extends Component {
 
                   <div className="g-title">
                     <h4>
-                      <span>Christian</span> Monteverde...
+                      <span>Christian</span> Monteverde.
                     </h4>
                     <p className="mb-25">
                       Front-end developer
