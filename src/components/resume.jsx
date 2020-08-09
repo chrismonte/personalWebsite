@@ -51,7 +51,7 @@ class Resume extends Component {
                                 <p>
                                   To obtain a position that provides ample
                                   oppotunity to utilize the skills that I have
-                                  aquired as a computer science student.
+                                  acquired as a computer science student.
                                 </p>
                               </div>
                             </div>
