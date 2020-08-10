@@ -23,11 +23,11 @@ class LandingPage extends Component {
                   Christian Monteverde
                 </Link>
               </div>
-              {/* <div className="col-sm col-3 text-lg-right">
+              <div className="col-sm col-3 text-lg-right">
                 <div className="social-icons d-none d-lg-inline-block">
-                  <Link to="www.linkedin.com/in/christian-monteverde-78020a185">
+                  <a href="www.linkedin.com/in/christian-monteverde-78020a185">
                     <i className="lni-linkedin-original"></i>
-                  </Link>
+                  </a>
                 </div>
 
                 <div className="header-nav-toggler d-lg-none">
@@ -37,7 +37,7 @@ class LandingPage extends Component {
                     <div className="line-menu half end"></div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </header>
