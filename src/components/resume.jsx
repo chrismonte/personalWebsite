@@ -95,7 +95,7 @@ class Resume extends Component {
                           className="section-heading"
                           style={{ color: "#6e80e3" }}
                         >
-                          <span>3/</span>My Skills
+                          <span>3/</span>Skills
                         </h2>
 
                         <div className="skills">
