@@ -25,9 +25,12 @@ class LandingPage extends Component {
               </div>
               <div className="col-sm col-3 text-lg-right">
                 <div className="social-icons d-none d-lg-inline-block">
-                  <a href="www.linkedin.com/in/christian-monteverde-78020a185">
-                    <i className="lni-linkedin-original"></i>
-                  </a>
+                  <a
+                    className="lni-linkedin-original"
+                    href="https://www.linkedin.com/in/christian-monteverde-78020a185"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  ></a>
                 </div>
 
                 <div className="header-nav-toggler d-lg-none">
