@@ -118,6 +118,12 @@ class Resume extends Component {
                               <p className="skill-text">Java, C, Python</p>
                             </div>
                           </div>
+
+                          <div className="skill-item">
+                            <div className="skill-info">
+                              <p className="skill-text">Git version control</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
 
