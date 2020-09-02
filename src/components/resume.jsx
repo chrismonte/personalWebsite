@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, NavLink } from "react-router-dom";
 import profilePic from "../img/user-photo-sq.jpg";
+import pdf from "../files/ChristianMonteverdeResume.pdf";
 
 class Resume extends Component {
   state = {};
@@ -26,6 +27,11 @@ class Resume extends Component {
                     </div>
                   </div>
                 </div> */}
+                <div className="col-sm col-3 text-lg-right">
+                  <a href={pdf} target="_blank" rel="noopener noreferrer">
+                    Click here for pdf
+                  </a>
+                </div>
               </div>
             </div>
           </header>
